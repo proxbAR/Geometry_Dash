@@ -1,0 +1,1 @@
+import picklef = open('highScores.dat','rb')x = pickle.load(f)f.close()for i in x:    print i,'\t',x[i]    
